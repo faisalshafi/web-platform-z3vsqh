@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axelerant Test</title>
+    <link rel="stylesheet" href="./css/vendor/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+    <section class="topPanel">
+            <div class="alert alert-primary alert-fe" role="alert">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto nopadding">
+                            <img src="./images/Vector-5.png" alt="alert-fe"/> 
+                        </div>
+                        <div class="col nopadding">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" alt="logo" height="36">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-account-icon"></span>
+              </button>
+             
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Account</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section class="formSection">
+        <div class="container">
+            <div class="row">
+                <div class="leftImage col">
+                    <img src="./images/Image.png" class="responsive" alt="PhotoGraph">
+                </div>
+                <div class="formContent col">
+                    <h1>My Account</h1>
+                    
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInputName" placeholder="Name">
+                            <label for="floatingInputName">Name</label>
+                          </div>
+                          <div class="row">
+                              <div class="col-sm-4 ">
+                                <div class="form-floating mb-3">
+                                    <input type="text" class="form-control" id="floatingMobile" placeholder="Mobile">
+                                    <label for="floatingMobile">Mobile</label>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="floatingEmail" placeholder="Email">
+                                    <label for="floatingEmail">Email</label>
+                                  </div>
+                              </div>
+                          </div>
+                          
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="configurationSection">
+        <div class="container">
+            <h2>Select Configuration</h2>
+            <div class="row">
+                <div class="col-auto img-radio" id="img-radio1">
+                    <img src="./images/Ellipse 1.svg" alt="uncheckradio" id="uncheck1" onclick="myFunction('uncheck1','check1','hiddenDiv1', 'heading1')">
+                    <img src="./images/Vector-2.png" alt="checkradio" id="check1" class="d-none">
+                </div>
+                <div class="col">
+                    <div class="accordianDiv">
+                        <h5 id="heading1">Manual Configuration</h5>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    </div>
+                    <div id="hiddenDiv1" class="accordianDiv d-none">
+                        <h5>Services Access</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed massa leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu varius felis. Integer posuere urna ut mi porta, vel fringilla dolor convallis. Sed laoreet sodales sapien vel vestibulum. Nulla dictum eros ut efficitur porttitor. Mauris dignissim, lectus sit amet euismod pretium, ex purus condimentum erat, eu feugiat nisi ipsum ac eros. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-auto img-radio" id="img-radio2">
+                    <img src="./images/Ellipse 1.svg" alt="uncheckradio" id="uncheck2" onclick="myFunction('uncheck2','check2','hiddenDiv2','heading2')">
+                    <img src="./images/Vector-2.png" alt="checkradio" id="check2"  class="d-none">
+                </div>
+                <div class="col">
+                    <div class="accordianDiv">
+                        <h5 id="heading2">Semi-auto Configuration</h5>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    </div>
+                    <div id="hiddenDiv2" class="accordianDiv d-none">
+                        <h5>Services Access</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed massa leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu varius felis. Integer posuere urna ut mi porta, vel fringilla dolor convallis. Sed laoreet sodales sapien vel vestibulum. Nulla dictum eros ut efficitur porttitor. Mauris dignissim, lectus sit amet euismod pretium, ex purus condimentum erat, eu feugiat nisi ipsum ac eros. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-auto img-radio" id="img-radio3">
+                    <img src="./images/Ellipse 1.svg" alt="uncheckradio" id="uncheck3" onclick="myFunction('uncheck3','check3',
+                    'hiddenDiv3', 'heading3')">
+                    <img src="./images/Vector-2.png" alt="checkradio" id="check3" class="d-none"> 
+                </div>
+                <div class="col">
+                    <div class="accordianDiv">
+                        <h5 id="heading3">Automatic Configuration</h5>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    </div>
+                    <div id="hiddenDiv3" class="accordianDiv d-none">
+                        <h5>Services Access</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed massa leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu varius felis. Integer posuere urna ut mi porta, vel fringilla dolor convallis. Sed laoreet sodales sapien vel vestibulum. Nulla dictum eros ut efficitur porttitor. Mauris dignissim, lectus sit amet euismod pretium, ex purus condimentum erat, eu feugiat nisi ipsum ac eros. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class = "d-grid gap-2">
+                        <button type="button" class="btn btn-primary updateButton"><img src="./images/Change Picture/-1.png" alt="changePicture" onclick="executeExample('errorType')" /> Update Configuration</button>
+                    
+                    
+                        <button type="button" class="btn btn-primary cancelButton"><img src="./images/Change Picture/cancel.png" alt="changePicture" /> Cancel</button>
+                    </div>
+                    
+                </div>
+        </div>
+        
+    </section>
+    
+    <script src="./js/vendor/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./js/vendor/js/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function myFunction(id1, id2, id3, id4){
+            $('#'+id1).addClass('d-none');
+            $('#'+id2).removeClass('d-none');
+            $('#'+id3).removeClass('d-none');
+            $('#'+id4).css('font-weight','700');
+        }
+        $(document).ready(function () {
+            $('body').on('click', '.updateButton', function () {
+                Swal.fire({
+                    title: "Great Job!",
+                    iconHtml: '<img src="./images/hand.png">',
+                    text: "Your configurations have been updated successfully.",
+                    type: "success",
+                    showConfirmButton:false
+                })
+            });
+});
+    </script>
+   
+</body>
+</html>
