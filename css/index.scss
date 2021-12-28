@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,300;1,400;1,900&display=swap');
+
+*{
+    font-family: Almarai;
+}
+
+.topPanel{
+    .alert-fe{
+       background-color: #FFF7F3;
+       color: #212121;
+       font-size: 16px;
+       font-weight: 700;
+       border: none;
+       margin-bottom: 0px;
+       .nopadding{
+           padding: 0;
+       }
+       img{
+           margin: 0px 16px; 
+       }
+    }
+}
+.navigation{
+    .navbar{
+        background-color: #5C524D;
+        padding: 0px;
+        .navbar-collapse{
+            color: rgba(255, 255, 255, 0.75);
+            text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        padding: 30px;
+                    }
+                    .active{
+                        border-bottom: 4px solid #86EAAE;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.formSection{
+    .container{
+        border-bottom: 1px solid #D5D5D5;
+        padding-bottom: 60px;
+        .leftImage{
+            padding-top: 60px;
+            img{
+                width:372px;
+                height: 340px;
+            }
+        }
+        .formContent{
+            padding-top: 60px;
+            h1{
+                text-transform: uppercase;
+                font-weight: bolder;
+                font-size: 48px;
+                padding-bottom: 30px;
+            }
+            .form-floating>.form-control, .form-floating>.form-select {
+                height: 86px;
+               
+            }
+            .form-floating>label {
+                padding: 1.5rem 0.75rem;
+                font-size: 24px;
+                color: #757575;
+                font-weight: 100;
+            }
+            
+           
+        }
+    }
+    
+}
+.configurationSection{
+    h2{
+        padding-top:64px;
+        padding-bottom: 32px;;
+    }
+    .img-radio{
+        margin-top:60px;
+    }
+    .accordianDiv{
+        background: #FAFAFA;
+        border: 1px solid #D5D5D5;
+        padding: 32px;
+        /* Inside Auto Layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+    }
+    .d-grid{
+        display: inline-flex !important;
+        img{
+            margin-right: 5px;
+        }
+        .updateButton{
+            background: #FC732F;
+            border: 1px solid #FC732F;
+            border-radius: 4px;
+            margin-left: 46px;
+            margin-top: 30px;
+            height:50px;
+            margin-right:0px;
+            margin-bottom: 100px;
+        }
+        .cancelButton{
+            background: white;
+            color: #FC732F;
+            border: 1px solid #FC732F;
+            border-radius: 4px;
+            margin-top: 30px;
+            height: 50px;
+            margin-bottom: 100px;
+        }
+    }
+}
+.swal2-popup{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .formSection{
+        .col{
+            flex: none;
+            img{
+                width:100% !important;
+                height: 100% !important;
+            }
+        }  
+    }
+    .navigation{
+        .navbar-dark .navbar-toggler-icon {
+            background-image: url('../images/Vector-3.png');
+        }
+        .navbar-dark .navbar-account-icon {
+            background-image: url('../images/Vector-4.png');
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            vertical-align: middle;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+        }
+        .navbar-collapse{
+            border-top: 1px solid rgba(0, 0, 0, 0.25);
+            margin-top: 30px;
+            .navbar-nav .nav-item .nav-link {
+                padding-left: 0 !important;
+            }
+        }
+        .navbar{
+           padding-top: 30px;
+           padding-bottom: 30px;     
+        }
+        .container{
+            .navbar-brand{
+                width:200px;
+                margin: auto;
+            }
+        }
+    }
+    .configurationSection{
+        .d-grid {
+            display: grid !important;
+            .updateButton{
+                margin-bottom: 0px;
+            }
+            .cancelButton{
+                margin-left: 46px;
+            }
+        }
+    }
+  }
